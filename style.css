@@ -1,6 +1,5 @@
 body {
     font-family: 'Abel', sans-serif;
-    font-size: 1em;
     background-image: url("https://img.freepik.com/free-vector/realistic-old-paper-texture-background_52683-73790.jpg?w=996&t=st=1695209109~exp=1695209709~hmac=5e90c6eeb9c457771259613f6272a46c03b01c1cba4b05aae3a3dde37f307459");
     background-repeat: no-repeat;
     background-size: cover;
@@ -9,7 +8,6 @@ body {
 
 h1 {
     font-family: Luminari;
-    font-size: 4em;
     text-align: center;
     vertical-align: middle;
 }
@@ -27,14 +25,14 @@ hr {
     border-top: 3px double black;
 }
 
-div {
+section {
     margin-top: 3%;
     column-gap: 3%;
     column-count: 2; 
     column-rule: 2px double; 
 }
 
-div>h2 {
+section>h2 {
     font-family: Luminari;
     column-span: all;
     text-align: center;
@@ -51,11 +49,11 @@ img {
     column-count: 2;
 }
 
-.extraHeight {
+/* .extraHeight {
     height: 100vh;
-}
+} */
 
-.popaux {
+#popaux {
     column-rule: none;
 }
 
